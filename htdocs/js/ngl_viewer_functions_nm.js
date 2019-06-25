@@ -58,7 +58,7 @@ function selectModel(model_number_)
 
 function loadStructure(structure_url) {
   console.log("6/16/2019 9:49 am")
-  stage_nm1 = new NGL.Stage("viewport", {backgroundColor: "black", opacity: 0});
+  stage_nm1 = new NGL.Stage("viewport", {backgroundColor: "white", opacity: 0});
 
   var tooltip = document.createElement("div");
   Object.assign(tooltip.style, { //copied code from NGL gallery
